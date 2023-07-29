@@ -8,7 +8,7 @@ const app=express();
 app.use(express.urlencoded())
 app.use(cors())
 
-mongoose.connect("mongodb://localhost:27017/myLoginRegisterDB",{
+mongoose.connect("yourmongodburi",{
   useNewUrlParser: true,
   useUnifiedTopology: true
 },()=>{
